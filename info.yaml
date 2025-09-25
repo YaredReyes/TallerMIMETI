@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # 443029483686103041(the number from the project's URL)
+  wokwi_id:     443029483686103041       # 443029483686103041(the number from the project's URL)
   title:        ""      # "Secuenciador para chip MIMETI" title
-  author:       ""      # Your name
+  author:       "YARED REYES"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "MI PRIMER DISEÑO DIGITSL"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,7 +16,7 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "REST"
+  ui[0]: "RESET"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -30,7 +30,7 @@ pinout:
   uo[1]: "LED1"
   uo[2]: "LED2"
   uo[3]: "LED3"
-  uo[4]: ""
+  uo[4]: "LED4"
   uo[5]: ""
   uo[6]: ""
   uo[7]: ""
